@@ -1,0 +1,43 @@
+
+<!doctype html>
+${doc_introduce.txt}
+<html>
+<head>
+	<title>${title}</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="author" content="${author}" />
+	<meta name="description" content="${description}" />
+	<meta name="keywords" content="${keywords}" />
+</head>
+${doc_not_support_elem.txt}
+<body class="impress-not-supported">
+${doc_fullback_elem.txt}
+<div class="fallback-message">
+  ${impress_fullback_message.txt}
+</div>
+${doc_impress_elem.txt}
+<div id="impress">
+	<!-- here will fullfill the contents -->
+	${impress_layout}
+	<!-- css is after, so u can focus the content -->
+	<style type="text/css">
+		${impress_style}
+	</style>
+</div>
+${doc_hint_elem.txt}
+<div class="hint">
+	${impress_hint_message.txt}
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "${impress_hint_mobile_message.txt}";
+}
+</script>
+${doc_impress_js.txt}
+<script>${impress.min.js}</script>
+<script>impress().init();</script>
+</body>
+</html>
+${doc_lastwords.txt}

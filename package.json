@@ -1,0 +1,32 @@
+{
+  "name": "impress-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "keywords": [
+    "web",
+    "tool",
+    "slider",
+    "share",
+    "ppt",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-zhang/impress-generator.git"
+  },
+  "author": "alex-zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-zhang/impress-generator/issues"
+  },
+  "homepage": "https://github.com/alex-zhang/impress-generator#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "marked": "^0.3.5"
+  }
+}

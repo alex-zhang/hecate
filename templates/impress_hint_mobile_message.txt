@@ -1,0 +1,1 @@
+<p>Tap on the left or right to navigate</p>
