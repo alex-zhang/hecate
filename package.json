@@ -2,10 +2,9 @@
   "name": "impress-generator",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js"
   },
   "keywords": [
     "web",
@@ -13,18 +12,20 @@
     "slider",
     "share",
     "ppt",
-    "markdown"
+    "markdown",
+    "hecate"
   ],
+  "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex-zhang/impress-generator.git"
+    "url": "git+https://github.com/alex-zhang/hecate.git"
   },
   "author": "alex-zhang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alex-zhang/impress-generator/issues"
+    "url": "https://github.com/alex-zhang/hecate/issues"
   },
-  "homepage": "https://github.com/alex-zhang/impress-generator#readme",
+  "homepage": "https://github.com/alex-zhang/hecate#readme",
   "dependencies": {
     "commander": "^2.8.1",
     "marked": "^0.3.5"

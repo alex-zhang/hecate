@@ -19,17 +19,18 @@ ${doc_fullback_elem.txt}
 </div>
 ${doc_impress_elem.txt}
 <div id="impress">
-	<!-- here will fullfill the contents -->
+	<!-- ==================== here will fullfill the contents start ==================== -->
 	${impress_layout}
-	<!-- css is after, so u can focus the content -->
-	<style type="text/css">
-		${impress_style}
-	</style>
+	<!-- ==================== here will fullfill the contents end   ==================== -->
 </div>
 ${doc_hint_elem.txt}
 <div class="hint">
 	${impress_hint_message.txt}
 </div>
+<!-- css is after, so u can focus the content -->
+<style type="text/css">
+	${impress_style}
+</style>
 <script>
 if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "${impress_hint_mobile_message.txt}";
