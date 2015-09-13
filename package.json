@@ -1,10 +1,10 @@
 {
-  "name": "impress-generator",
+  "name": "hecate",
   "version": "0.0.1",
   "description": "",
   "main": "./bin/hecate.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "bin": {
+    "hecate": "hecate.js"
   },
   "keywords": [
     "web",
@@ -15,19 +15,25 @@
     "markdown",
     "hecate"
   ],
-  "preferGlobal": true,
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alex-zhang/hecate.git"
   },
-  "author": "alex-zhang",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alex-zhang/hecate/issues"
   },
-  "homepage": "https://github.com/alex-zhang/hecate#readme",
-  "dependencies": {
-    "commander": "^2.8.1",
-    "marked": "^0.3.5"
-  }
+  "homepage": "https://github.com/alex-zhang/hecate#readme"
 }
