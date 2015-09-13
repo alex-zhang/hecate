@@ -6,6 +6,9 @@
   "bin": {
     "hecate": "hecate.js"
   },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "keywords": [
     "web",
     "tool",
