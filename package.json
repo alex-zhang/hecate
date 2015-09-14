@@ -4,7 +4,7 @@
   "description": "",
   "main": "./bin/hecate.js",
   "bin": {
-    "hecate": "hecate.js"
+    "hecate": "./bin/hecate.js"
   },
   "engines": {
     "node": ">=0.10.0"
