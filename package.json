@@ -1,6 +1,6 @@
 {
   "name": "hecate",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "./bin/hecate",
   "bin": {
@@ -18,13 +18,12 @@
     "markdown",
     "hecate"
   ],
-  "directories": {
-    "example": "examples"
-  },
+  "directories": {},
   "files": [
     "LICENSE",
     "bin/",
-    "templates/"
+    "templates/",
+    "themes/"
   ],
   "dependencies": {
     "commander": "^2.8.1",
