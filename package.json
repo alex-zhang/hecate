@@ -23,7 +23,8 @@
     "LICENSE",
     "bin/",
     "templates/",
-    "themes/"
+    "themes/",
+    "lib/"
   ],
   "dependencies": {
     "commander": "^2.8.1",
