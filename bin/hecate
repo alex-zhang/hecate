@@ -5,9 +5,9 @@
 process.title = 'hecate';
 
 var program = require('commander');
-var packageJson = require('./package');
+var packageJson = require('../package');
 var fs = require('fs');
-var listThemes = require('./lib/listThemes');
+var listThemes = require('../lib/listThemes');
 
 program.version(packageJson.version)
 
