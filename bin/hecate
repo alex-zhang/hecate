@@ -63,7 +63,7 @@ if (!process.argv.slice(2).length) {
 }
 
 function excuteAction(action, value, options) {
-	var handler = require('./lib/cmd_actions/' + action);
+	var handler = require('../lib/cmd_actions/' + action);
 	try {
 		handler.call(null, value, options);
 	} catch (error) {
