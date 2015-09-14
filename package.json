@@ -1,10 +1,10 @@
 {
   "name": "hecate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
-  "main": "./bin/hecate.js",
+  "main": "./bin/hecate",
   "bin": {
-    "hecate": "./bin/hecate.js"
+    "hecate": "./bin/hecate"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -21,6 +21,11 @@
   "directories": {
     "example": "examples"
   },
+  "files": [
+    "LICENSE",
+    "bin/",
+    "templates/"
+  ],
   "dependencies": {
     "commander": "^2.8.1",
     "marked": "^0.3.5"
@@ -33,8 +38,8 @@
     "type": "git",
     "url": "git+https://github.com/alex-zhang/hecate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alex Zhang",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alex-zhang/hecate/issues"
   },
