@@ -92,6 +92,13 @@ to control the html element contents.
  but it's hrad to modify.
 
 
+Next
+-------------------------------
+
++ The markdown's hightlight is not well suppot, support ant opt later.
++ Add more themes
+
+
 
 
 
