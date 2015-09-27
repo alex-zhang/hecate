@@ -41,6 +41,7 @@ The created tempalte md file will teach u how to config and fulfill your content
 The "Transition-Data-Props" is from [impress.js](https://github.com/impress/impress.js)
 
 ```javascript
+
   ```meta
      {
        "data-x":2000,
@@ -50,29 +51,38 @@ The "Transition-Data-Props" is from [impress.js](https://github.com/impress/impr
        "class":"slide-card"
      }
   ```
+
 ```
 
-+ U also can use these meta-tag `embed-js` `embed-css` `embed-html` to control the html element contents.
++ U also can use these meta-tag `embed-js` `embed-css` `embed-html`
+
+to control the html element contents.
 
 ```javascript
+
   ```embed-js
-  console.log('hello~');
+    console.log('hello~');
   ```
+
 ```
 
 ```css
+
   ```embed-css
   .my-class {
     font-size: 16px;
   }
   ```
+
 ```
 
 + U also can use meta-tag `meta-end` to end the last "Page" element range.
 
 ```javascript
+
   ```meta-end
   ```
+
 ```
 
 + U also can create the html directly, not from the markdown file.
