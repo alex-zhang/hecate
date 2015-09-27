@@ -59,30 +59,24 @@ The "Transition-Data-Props" is from [impress.js](https://github.com/impress/impr
 to control the html element contents.
 
 ```javascript
-
   ```embed-js
     console.log('hello~');
   ```
-
 ```
 
 ```css
-
   ```embed-css
-  .my-class {
-    font-size: 16px;
-  }
+    .my-class {
+      font-size: 16px;
+    }
   ```
-
 ```
 
 + U also can use meta-tag `meta-end` to end the last "Page" element range.
 
 ```javascript
-
   ```meta-end
   ```
-
 ```
 
 + U also can create the html directly, not from the markdown file.
