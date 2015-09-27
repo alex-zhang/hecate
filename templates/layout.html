@@ -35,26 +35,24 @@ ${doc_impress_elem.txt}
 
 
 </div>
-${doc_hint_elem.txt}
-<div class="hint">
-	${impress_hint_message.txt}
-</div>
 <!-- css is after, so u can focus the content -->
+<style type="text/css">
+${hightlight.min.css}
+</style>
 <!-- layout.css -->
 <style type="text/css">
-	${layout.css}
+${layout.css}
 </style>
 <!-- app.css -->
 <style type="text/css">
-	${impress_style}
+${impress_style}
 </style>
-<script>
-if ("ontouchstart" in document.documentElement) {
-    document.querySelector(".hint").innerHTML = "${impress_hint_mobile_message.txt}";
-}
 </script>
 ${doc_impress_js.txt}
-<script>${impress.min.js}</script>
+<script>
+${impress.min.js}
+</script>
+
 <script>impress().init();</script>
 </body>
 </html>

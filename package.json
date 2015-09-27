@@ -28,6 +28,7 @@
   ],
   "dependencies": {
     "commander": "^2.8.1",
+    "highlight.js": "^8.8.0",
     "marked": "^0.3.5"
   },
   "devDependencies": {},

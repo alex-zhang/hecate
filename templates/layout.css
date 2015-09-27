@@ -24,6 +24,17 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+body {
+  font-size: 30px;
+}
+
+pre code {
+    display: block;
+    /*height: 16em;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 div, h1, h2, h3, h4, h5, h6, article {
   -webkit-box-sizing: border-box;
   -moz-box-sizing:    border-box;
@@ -62,3 +73,62 @@ table {
 */
 b, strong { font-weight: bold }
 i, em { font-style: italic }
+
+
+
+
+/*
+  About impress
+ */
+
+.impress-enabled          { pointer-events: none }
+.impress-enabled #impress { pointer-events: auto }
+
+.impress-on-overview .step {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.impress-enabled .step.active { opacity: 1 }
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.step {
+    position: relative;
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.step > h1, .step > h2, .step > h3, .step > h4, .step > h15, .step > h6 {
+  margin:20px 0;
+  font-size: 120%;
+}
+
+.step p {
+  margin:20px 0;
+  line-height: 1.1;
+  /*text-align: center;*/
+}
+
+.slide q {
+    display: block;
+    line-height: 72px;
+    margin-top: 100px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
