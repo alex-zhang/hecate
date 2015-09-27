@@ -42,7 +42,7 @@ The "Transition-Data-Props" is from [impress.js](https://github.com/impress/impr
 
 ```javascript
 
-  ```meta
+  '''meta
      {
        "data-x":2000,
        "data-y":1000,
@@ -50,7 +50,7 @@ The "Transition-Data-Props" is from [impress.js](https://github.com/impress/impr
        "data-rotate": 45,
        "class":"slide-card"
      }
-  ```
+  '''
 
 ```
 
@@ -59,24 +59,24 @@ The "Transition-Data-Props" is from [impress.js](https://github.com/impress/impr
 to control the html element contents.
 
 ```javascript
-  ```embed-js
+  '''embed-js
     console.log('hello~');
-  ```
+  '''
 ```
 
 ```css
-  ```embed-css
+  '''embed-css
     .my-class {
       font-size: 16px;
     }
-  ```
+  '''
 ```
 
 + U also can use meta-tag `meta-end` to end the last "Page" element range.
 
 ```javascript
-  ```meta-end
-  ```
+  '''meta-end
+  '''
 ```
 
 + U also can create the html directly, not from the markdown file.
