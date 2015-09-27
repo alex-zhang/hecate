@@ -1,6 +1,10 @@
 # Hecate
 ======================
 
+![hecate](./hecate.png)
+
+[wiki/Hecate](https://en.wikipedia.org/wiki/Hecate)
+
 What is it
 ----------------------
 
@@ -87,9 +91,7 @@ to control the html element contents.
 
  but it's hrad to modify.
 
-[wiki/Hecate](https://en.wikipedia.org/wiki/Hecate)
 
-![hecate](./hecate.png)
 
 
 
