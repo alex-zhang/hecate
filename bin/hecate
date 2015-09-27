@@ -11,10 +11,13 @@ var listThemes = require('../lib/listThemes');
 
 program.version(packageJson.version)
 
+// command args '<>' is must
+// command args '[]' is options
 program
 	.command('create <file>')
-	.description('create the template html <file>')
+	.description('create the template .md or .html or build exsit .md file to html')
 	.option('-m, --theme <items>', 'use the theme to create the page, default is ' + listThemes.DEFAULT_THEME, listThemes())
+	.option('-p, --template', 'is create from the markdown template file flag')
 	.option('-t, --title [value]', 'the page title, default is input file name')
 	.option('-A, --author [value]', 'the page author, default will from your computer')
 	.option('-D, --document', 'generate the doument comment')
@@ -27,7 +30,8 @@ program
 	})
 	.on('--help', function() {
 		console.log('  Example:');
-		console.log("    create test.html -A 'Alex' -t 'Example'");
+		console.log("  create test.md -p -A 'Alex' -t 'Example'");
+		console.log('');
 		console.log('');
 	})
 

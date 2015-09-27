@@ -4,9 +4,13 @@
 What is it
 ----------------------
 
-The inspiration of `Hecate` is from [impress.js](https://github.com/impress/impress.js) and [markdown-impress](https://github.com/steel1990/markdown-impress/blob/master/mtoi.js) 
+The inspiration of `Hecate` is from [impress.js](https://github.com/impress/impress.js) and [markdown-impress](https://github.com/steel1990/markdown-impress/blob/master/mtoi.js)
 
-The `Hecate` out is online slider which is Html. 
+https://github.com/hakimel/reveal.js
+http://imakewebthings.com/deck.js
+http://slides.com
+
+The `Hecate` out is online slider which is Html.
 
 Install
 ----------------------

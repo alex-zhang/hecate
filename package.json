@@ -7,7 +7,7 @@
     "hecate": "./bin/hecate"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0.0"
   },
   "keywords": [
     "web",
