@@ -1,5 +1,5 @@
 body {
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace, Helvetica, Arial, sans-serif;
     min-height: 740px;
     line-height: 1;
     background: #222;
@@ -26,19 +26,24 @@ a:focus {
 }
 
 code {
-  font-size: 90%;
-  line-height: 90%;
-  padding: 5px;
-  background-color: #111;
+  /*font-size: 90%;*/
+  /*line-height: 90%;*/
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.3) inset;
+  padding: 5px;
+  background-color: #fff;
 }
 
-pre code {
+/*pre code {
   padding: 25px;
   overflow-y: hidden;
   overflow-x: hidden;
   box-shadow: 0 0 20px rgba(0,0,0, 0.3) inset;
+}*/
+
+pre[class*="language-"] {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.2) inset;
 }
 
 .fallback-message {

@@ -20,39 +20,36 @@ ${doc_impress_elem.txt}
 <div id="impress">
 
 
-
 	<!-- ==================== here will fullfill the contents start ==================== -->
-
 
 
 	${impress_template}
 
 
-
 	<!-- ==================== here will fullfill the contents end   ==================== -->
 
-
-
-
 </div>
-<!-- css is after, so u can focus the content -->
-<style type="text/css">
-${hightlight.min.css}
-</style>
+
 <!-- layout.css -->
 <style type="text/css">
-${layout.css}
+	${layout.css}
+</style>
+<!-- code hightlight.css -->
+<style type="text/css">
+	${prism.css}
 </style>
 <!-- app.css -->
 <style type="text/css">
-${impress_style}
+	${impress_style}
 </style>
 </script>
 ${doc_impress_js.txt}
 <script>
-${impress.min.js}
+	${impress.min.js}
 </script>
-
+<script>
+	${prism.min.js}
+</script>
 <script>impress().init();</script>
 </body>
 </html>

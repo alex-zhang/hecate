@@ -16,14 +16,17 @@
 Hey Hecate ~
 ============================
 
-`Hecate` enables you to create beautiful interactive slides by using markdown.
+```javascript
+var a = 1;
+window.a = 3;
+function test() {
+  try {
+    console.log('hello');
+  } catch(err) {
+  }
 
-
->This presentation will show you examples of what it can do.
-
-
-```bash
-npm install hecate -g
+  return new Date().getTime();
+}
 ```
 
 [Fork Github](https://github.com/alex-zhang/hecate)
